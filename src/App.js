@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Counter from './commponents/counter';
+import Hw1 from './commponents/hw1';
+import InputVal from './commponents/inputVal';
+import Message from './commponents/message';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+<Hw1/>
     </div>
   );
 }
