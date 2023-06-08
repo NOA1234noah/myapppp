@@ -4,7 +4,8 @@ import Hw2 from './components/hw2';
 
 function App() {
   return (
-    <Hw2/>
+    <div className='container'>
+    <Hw2/></div>
   );
 }
 
