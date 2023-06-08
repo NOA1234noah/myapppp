@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ExChange from './comps/exchange';
 
 function App() {
   return (
-    <></>
+   <ExChange/>
   );
 }
 
