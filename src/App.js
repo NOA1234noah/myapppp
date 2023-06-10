@@ -1,11 +1,12 @@
 
 import './App.css';
-import Hw1 from './commponents/hw1';
+import ALL from './commponents/all_hw';
+
 
 function App() {
   return (
     <div className="container">
-      <Hw1 />
+      <ALL />
     </div>
   );
 }
