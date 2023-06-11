@@ -1,10 +1,12 @@
 
 import './App.css';
-import ExChange from './comps/exchange';
+// import AppDate from './comp_date/appDate';
+import ShopList from './comp_shop/shopList';
+// import ExChange from './comps/exchange';
 
 function App() {
   return (
-   <ExChange/>
+   <ShopList/>
   );
 }
 
